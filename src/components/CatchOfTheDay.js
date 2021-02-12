@@ -118,6 +118,7 @@ class CatchOfTheDay extends React.Component {
             loadSampleFishes={this.loadSampleFishes}
             editFish={this.editFish}
             removeFish={this.removeFish}
+            storeId={this.props.storeId}
           />
         </div>
       </>
